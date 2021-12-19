@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Log in</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+
+        <!--Style link-->
+        <link rel="stylesheet" href="CSS/styles.css">
+    </head>
+
+    <body>
+        <nav> <!--When assigning position: sticky, the nav should not be in any other tags. Otherwise it would not work-->
+			<div class="logo">
+				<a href="#">a fancy logo</a>
+			</div>
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="donate.html">Donate</a></li>
+				<li><a href="contact.html">Contact Me</a></li>
+				<li><a class="Account active" href="account.html">Log In</a></li>
+			</ul>
+			<div class="burger">
+				<input type="checkbox">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</nav>
+
+        <main>
+            <article>
+                <h2>Make an Account</h2>
+                <p>Make a new account.</p>
+                <p>Note that I want to practice using form elements. I don't collect personal data, as I don't even have a server. </p>
+                <div class="form-container">
+                    <!--form-->
+                    <form>
+                        <div class="form-field">
+                            <label for="fname">First Name</label>
+                            <input name="fname" type="text" placeholder="Type Here..">
+                        </div>
+                        <div class="form-field">
+                            <label for="lname">Last Name</label>
+                            <input name="lname" type="text" placeholder="Type here..">
+                        </div>
+                        <div class="form-field">
+                            <label for="pass">Type in your Password</label>
+                            <input name="pass" type="password" placeholder="Type here..">
+                        </div>
+                        <div class="submit">
+                            <button name="submit">Register</button>
+                        </div>
+
+                        <div class="account-cta">
+                            <p>
+                                <a href="account.html">If you already have an account, go here!</a>
+                            </p>
+                        </div>
+                    </form>
+                    <!--end of form-->
+                </div>
+            </article>
+        </main>
+        <footer>
+            <hr>
+            <p>Made by Klrfl, 2021. All rights reserved.</p>
+        </footer>
+    </body>
+</html>

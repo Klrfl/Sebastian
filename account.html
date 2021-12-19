@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in Account</title>
+
+    <!--CSS link-->
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+
+<body>
+    <nav> <!--When assigning position: sticky, the nav should not be in any other tags. Otherwise it would not work-->
+        <div class="logo">
+            <a href="#">a fancy logo</a>
+        </div>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="donate.html">Donate</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+            <li><a class="Account active" href="account.html">Log In</a></li>
+        </ul>
+        <div class="burger">
+            <input type="checkbox">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+    
+    <main>
+        <article>
+            <h2>Log in</h2>
+            <p>Log in to your account.</p>
+            <div class="fomr-container">
+                <form>
+                    <div class="form-field">
+                        <label for="fname">First Name</label>
+                        <input name="fname" type="text" placeholder="Type here..">
+                    </div>
+
+                    <div class="form-field">
+                        <label for="lname">Last Name</label>
+                        <input name="lname" type="text" placeholder="Type here..">
+                    </div>
+                    <div class="form-field">
+                        <label for="pass">Password</label>
+                        <input name="pass" type="password" placeholder="Type here..">
+                    </div>
+                    <div class="submit">
+                        <button name="submit">Log In</button>
+                    </div>
+                </form>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <hr>
+        <p>Made by Klrfl, 2021. All rights reserved.</p>
+    </footer>
+</body>
+</html>
