@@ -163,15 +163,6 @@ nav a.Account:hover{
   background-color: rgba(196, 37, 26, 0.8);
 }
 
-nav a:active{
-  /* border-bottom: 3px solid rgb(64, 199, 40); */
-}
-
-nav a.active{
-  /* border-bottom: 3px solid rgb(64, 199, 40); */
-
-}
-
 nav a:visited{
   color: #d1d1d1;
 }
