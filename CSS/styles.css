@@ -1,12 +1,14 @@
 /*Open Sans import*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 
+*{
+  box-sizing: border-box;
+}
 body{
   font: 1rem "Open Sans", sans-serif;
   background-color: #F4F4F4;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   overflow-x: hidden;
 }
 
@@ -86,6 +88,7 @@ nav .logo{
   justify-content: space-between;
   flex-direction: column;
   height: 20px;
+  cursor: pointer;
 }
 
 /* burger button */
@@ -126,7 +129,7 @@ nav a.Account{
 /*NAVBAR link effects*/
 nav a:link{
   text-decoration: none;
-  color: #d1d1d1;
+  color: #ddd;
 }
 
 nav a::after{
@@ -148,6 +151,7 @@ nav a.active::after{
   left: 0;
   width: 100%;
   height: 3px;
+  transform: scale(1);
 }
 
 nav a:hover, a.active{
@@ -189,6 +193,7 @@ nav a:visited{
 main article{
   max-width: 80vw;
   margin: 0 auto;
+  padding: 1em;
 }
 
 article h2{
@@ -465,7 +470,6 @@ footer{
 @media screen and (max-width: 620px){
   main article{
     max-width: 100vw;
-    font-size: 0.8rem;
   }
 
   #sidebar{
