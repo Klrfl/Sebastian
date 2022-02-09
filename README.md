@@ -1,4 +1,4 @@
 # Sebastian
-This is the og website I made. I remade this with a sidebar in another project called Sebastian Sidebar. Check it out
+This is the first ever serious project I made. I remade this with a sidebar in another project called Sebastian Sidebar. Check it out
 
-This project is sooon to be discontinued. I will not update this project for a while, simply because I have other projects to take care of.
+I learned making a navbar, practiced making a basic layout using flex and styling on the way.
